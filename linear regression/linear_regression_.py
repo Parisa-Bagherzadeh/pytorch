@@ -53,7 +53,7 @@ for epoch in range(epochs):
 #plot
 predicted = model(X).detach().numpy()
 
-fig = plt.figure(figsize=(8, 8))
+fig = plt.figure(figsize = (8, 8))
 plt.plot(X_numpy , y_numpy , 'ro')
 plt.plot(X_numpy , predicted , 'b')
 plt.show()
