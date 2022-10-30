@@ -56,7 +56,7 @@ if __name__ =='__main__':
 
         print(f'Epoch:{epoch+1} , Loss:{total_loss} , Accuracy:{total_acc}')
 
-        torch.save(model.state_dict(),"weights.pth")
+    torch.save(model.state_dict(),"weights.pth")
 
 
 
