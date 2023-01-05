@@ -20,3 +20,21 @@ To inference , open up a temrinal and execute the following command :
 ```
 python3 inference.py --voice filename of voice 
 ```
+---
+ <table>
+     <tr>
+       <td></td>
+       <td>Accuracy</td>
+       <td>Loss</td>
+     </tr>
+     <tr>
+       <td>Train</td>
+       <td>0.97</td>
+       <td>1.57</td>
+     </tr>
+     <tr>
+       <td>Test</td>
+       <td> 0.88</td>
+       <td>1.66</td>
+     </tr>
+   </table>
