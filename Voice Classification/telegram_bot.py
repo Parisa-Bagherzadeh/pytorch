@@ -9,7 +9,7 @@ from model import M5
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-bot = telebot.TeleBot("5944388484:AAFnk8Z0PdXUl4fuD0Ih5i_OPMmsaYlYu8Q")
+bot = telebot.TeleBot("")
 
 @bot.message_handler(commands = ['start'])
 def send_welcome(message):
