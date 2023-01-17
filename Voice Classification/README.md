@@ -1,6 +1,7 @@
 # Voice classification
 
 A deep learning model to classify voice using Pytorch
+If you want to test any voice, first run make_dataset.ipynb to preprocess the voice and then you can inference 
 
 ---
 ## Installation
